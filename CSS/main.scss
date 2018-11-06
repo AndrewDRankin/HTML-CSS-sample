@@ -1,0 +1,114 @@
+body{
+	margin: 0 90px auto;
+	font-family: primaryFont;
+	font-size: 100%;
+}
+
+
+// colours
+
+$lightPink: #fff0e9;
+$deepPink: #fe6c7f;
+$teal: #41cadd;
+$titleTeal: #37cade;
+$boxGrey: #dee2e5;
+$lightGrey: rgb(180,180,180);
+$darkGrey: rgb(72,72,72);
+
+// colours
+
+
+// fonts
+
+@font-face{
+	font-family: 'primaryFont';
+	font-weight: normal;
+	src: url("../assets/fonts/Nunito/Nunito-Regular.ttf")
+	format("TrueType");
+}
+
+@font-face{
+	font-family: 'secondaryFont';
+	font-weight: normal;
+	src: url("../assets/fonts/Poppins/Poppins-Bold.ttf")
+	format("TrueType");
+}
+
+@font-face{
+	font-family: 'symbols1';
+	font-weight: normal;
+	src: url("../assets/fonts/Social-Media-Circled/Social-Media-Circled.otf")
+	format("OpenType");
+}
+
+// fonts
+
+
+// buttons
+
+.buttonBlue{
+	background: $teal;
+	color: white;
+	border: none;
+	padding: 4px;
+	font-family: primaryFont;
+	font-weight: 100;
+}
+
+.buttonPink{
+	background: $deepPink;
+	color: white;
+	border: none;
+	padding: 10px 10%;
+	font-family: primaryFont;
+	font-weight: 100;
+}
+// buttons
+
+
+// titles
+
+.sectionTitle{
+	background: $darkGrey url("../assets/hero.jpg") no-repeat;
+	background-size: cover;
+	color: white;
+	padding: 200px 20px;
+
+	h1{
+		font-family: secondaryFont, sans-serif;
+		font-size: 66px;
+		font-weight: 800;		
+	}
+	
+	p{
+		color: rgba($lightGrey, 0.4);
+		padding: 10px 0 0 5px;
+	}
+	
+	em{
+		font-family: Times new roman;
+		font-size: 80px;
+		font-style: italic;
+		font-weight: 600;
+		color: $titleTeal;
+	}
+	
+	span{
+		color: $deepPink;
+	}
+}
+
+.sectionPinkTitle{
+	background-color: $lightPink;
+	color: black;
+	text-align: center;
+	padding: 100px 20px;
+	
+	h1{
+		font-family: secondaryFont, sans-serif;
+		font-size: 66px;
+		font-weight: 800;		
+	}
+}
+
+// titles

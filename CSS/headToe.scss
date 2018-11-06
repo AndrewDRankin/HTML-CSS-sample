@@ -1,0 +1,46 @@
+.headerMain{
+	margin-left: -90px;
+	margin-right: -90px;
+	padding: 25px 0;
+	overflow: auto;
+	
+	h3{
+		float: left;
+		font-size: 25px;
+		font-weight: 800;
+	}
+
+	nav{
+		float: right;
+	}
+
+	a{
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 12px;
+		font-weight: 800;
+		color: $darkGrey;
+		padding: 0 10px;
+	}
+}
+
+
+
+
+footer{
+	text-align: center;
+	padding: 25px 0;
+	margin-left: -90px;
+	margin-right: -90px;
+
+	a{
+		font-family: symbols1;
+		text-decoration: none;
+		font-size:50px;
+		color: black;
+	}
+
+	a:hover{
+		color: $deepPink;
+	}
+}

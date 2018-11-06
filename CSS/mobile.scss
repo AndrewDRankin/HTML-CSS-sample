@@ -1,0 +1,169 @@
+@media only screen and (max-width: 2000px){
+
+	body{
+	margin: 0 0 auto;
+	font-family: primaryFont;
+	font-size: 100%;
+	}
+
+	.headerMain{
+	margin-left: 0;
+	margin-right: 0;
+	padding: 25px 0;
+	overflow: auto;
+	}
+
+	footer{
+	text-align: center;
+	padding: 25px 0;
+	margin-left: 0;
+	margin-right: 0;
+	}
+
+}
+
+@media only screen and (max-width: 1332px){
+
+	.headerMain{
+	margin-left: 0;
+	margin-right: 0;
+	padding: 25px 0;
+	overflow: auto;
+	
+	h3{
+		float: none;
+		text-align: center;
+		font-size: 25px;
+		font-weight: 800;
+	}
+
+	nav{
+		display: none;
+		float: none;
+		text-align: center;
+	}
+
+	// nav:hover{
+	// 	display: block;
+	// 	transition: display 0.2 ease;
+
+	// }
+
+	a{
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 12px;
+		font-weight: 800;
+		color: $darkGrey;
+		padding: 0 10px;
+	}
+	
+	input{
+		display:none;
+	}
+	
+	}
+
+
+	.sectionTitle{
+	background: $darkGrey url("../assets/hero.jpg") no-repeat;
+	background-size: cover;
+	color: white;
+	padding: 200px 20px;
+
+	h1{
+		font-family: secondaryFont, sans-serif;
+		font-size: 30px;
+		font-weight: 800;		
+	}
+	
+	p{
+		color: rgba($lightGrey, 0.4);
+		padding: 10px 0 0 5px;
+		font-size: 26px;
+	}
+	
+	em{
+		font-family: Times new roman;
+		font-size: 46px;
+		font-style: italic;
+		font-weight: 600;
+		color: $titleTeal;
+	}
+	
+	span{
+		color: $deepPink;
+	}
+
+	}
+
+
+	.sectionImage{
+	margin: 0;
+	display: block;
+	// grid-template-rows: 1fr;
+	// grid-template-columns: 1fr;
+	// grid-gap: 0px;
+	// // border: 2px solid black;
+
+		div:nth-of-type(1){
+	// 	grid-area: 1/1/2/2;
+	// 	// background-color: lighten($teal, 10%);
+		margin: 0;
+		}
+
+		div:nth-of-type(2){
+	// 	grid-area: 1/1/2/2;
+	// 	// background-color: lighten($deepPink, 10%);
+		margin: 0;
+		}
+		
+		img{
+		display: block;
+		max-width: 1090px;
+		width: 100%;
+		}
+		
+		figure{
+		margin: 4% 4%;
+		overflow: hidden;
+		}
+		
+	}
+
+	.sectionForm{
+	
+	margin: 7% 5% 0;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr;
+	grid-gap: 0px;
+
+		form{
+		grid-area: 1/1/2/2;
+		// background-color: lighten($teal, 10%);
+		// margin: 5% 5% 0 5%;
+		}
+	
+		form *{
+		display: block;
+		width: 90%;
+		margin: 0 5%;
+		}
+
+		input{
+			padding: 3% 0;
+		}
+
+		label{
+			padding-top: 2%;
+		}
+
+		button{
+			margin-top: 2%;
+			width: 20%;
+			padding: 10px;
+		}
+
+	}
+}

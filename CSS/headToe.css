@@ -1,0 +1,23 @@
+.headerMain{
+	margin-left: -90px;
+	margin-right: -90px;
+	border: 2px solid black;
+	overflow: auto;
+	
+	h3{
+		float: left;
+	}
+	nav{
+		float: right;
+		text-transform: 
+	}
+
+
+
+
+footer{
+	border: 2px solid black;
+	text-align: center;
+	margin-left: -90px;
+	margin-right: -90px;
+}

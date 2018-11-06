@@ -1,0 +1,54 @@
+body{
+	margin: 0 90px auto;
+}
+
+
+
+.headerMain{
+	margin-left: -90px;
+	margin-right: -90px;
+	border: 2px solid black;
+	overflow: auto;
+}
+.headerMain h3{
+	float: left;
+}
+.headerMain nav{
+	float: right;
+}
+
+
+
+.sectionTitle{
+	border: 2px solid black;
+}
+
+
+
+.sectionImage{
+	margin: 70px 30px;
+	display: grid;
+	grid-template-rows: repeat(6, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 50px;
+	border: 2px solid black;
+}
+.sectionImage div:nth-of-type(1){
+	grid-area: 1/1/6/2;
+	background-color: blue;
+}
+.sectionImage div:nth-of-type(2){
+	grid-area: 1/2/6/3;
+	background-color: green;
+}
+.sectionImage img{
+	display: block;
+}
+
+
+footer{
+	border: 2px solid black;
+	text-align: center;
+	margin-left: -90px;
+	margin-right: -90px;
+}

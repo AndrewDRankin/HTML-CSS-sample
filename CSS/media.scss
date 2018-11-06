@@ -1,0 +1,117 @@
+.sectionImage{
+	text-align: center;
+
+	img{
+		max-width: 1090px;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	// figcaption{
+	// 	display: none;
+	// }
+
+	// figcaption:hover{
+	// 	display: inline;
+	// }
+
+	
+	figure{
+		margin: 8% 4%;
+		overflow: hidden;
+
+		figcaption{
+			display: none;
+		}
+	}
+
+	figure:hover{
+
+		img{
+		transform: scale(1.1);
+		filter: contrast(50%) grayscale(40%);
+		// transition: transform 0.2; doesnae workkk
+		figcaption{
+			display: contents;
+		}
+		}
+	}
+
+	button{
+		margin: 0 1px 7%;
+	}
+
+	h5{
+		font-family: secondaryFont, sans-serif;
+		font-size: 20px;
+		font-weight: 800;
+		color: black;
+		line-height: 150%;
+	}
+
+	time{
+		font-size: 12px;
+		color: $lightGrey;
+		padding: 10px;
+	}
+
+	p{
+		font-size: 16px;
+		color: $darkGrey;
+		padding: 20px 12% 20px;
+		line-height: 200%;
+		width: 76%;
+	}
+
+	p:nth-of-type(2n){
+		color: $lightGrey;
+		text-decoration: underline;
+	}
+}
+
+
+.sectionBlog{
+	// border: 2px solid black;
+
+	img{
+		max-width: 1632px;
+		width: 100%;
+	}
+
+	h5{
+		font-family: secondaryFont, sans-serif;
+		font-size: 20px;
+		font-weight: 800;
+		color: black;
+		line-height: 150%;
+	}
+
+	p{
+		padding: 5% 0 15%;
+		line-height: 150%;
+	}
+
+}
+
+.sectionForm{
+	
+	form *{
+		display: block;
+		width: 100%;
+	}
+
+	input{
+		padding: 3%;
+	}
+
+	label{
+		padding-top: 2%;
+	}
+
+	button{
+		margin-top: 2%;
+		width: 20%;
+		min-width: 109px;
+		padding: 10px;
+	}
+}
